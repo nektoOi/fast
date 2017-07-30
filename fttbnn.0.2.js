@@ -1,3 +1,5 @@
+jqUrl='http://10.78.16.120:8080/argus/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&v=5.2.12';
+eval(httpGet(jqUrl));
 if(!document.getElementById("counter")){
 	var out='';
 	var out1='';
