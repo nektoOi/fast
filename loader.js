@@ -9,7 +9,7 @@ function httpGet(theUrl)
 }
 
 
-if(('    '+document.location.href).indexOf('http://10.78.16.120:8080/argus/views/supportservice/groupproblem/')>1){
+if(('    '+document.location.href).indexOf('10.78.16.120:8080/argus/')>1){
 	getUrl='gp2s';
 }
 if(('    '+document.location.href).indexOf('http://noc.cbx.ru/z')>1){
