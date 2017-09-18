@@ -15,7 +15,7 @@ setTimeout(function() {
 document.getElementById("group_interaction_info_form-tab_view-estimated_end_date_input").value =  day + "." + month + "." + year + " " +  hour + ":" + minutes;
 }, 3000);
 setTimeout(function() { 
-$( "div[class='ui-button-text ui-c']" ).click();
+$( "div[class='ui-button-icon-left ui-icon ui-c ui-icon-check']" ).click();
 }, 4000);
 //setTimeout(function() { 
 //document.getElementById("group_interaction_info_form-tab_view-commentary").value = document.getElementById("group_interaction_info_form-tab_view-businessInteraction_out").value; + " "+  day + "." + month + "." + year + " " +  hour + ":" + minutes;
