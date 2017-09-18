@@ -1,6 +1,16 @@
+   var date = new Date,
+        day = date.getDate() + 1,
+        month = date.getMonth() + 1,
+        year = date.getYear() + 1900,
+        hour = date.getHours(),
+        minutes = date.getMinutes();
+    day < 10 && (day = "0" + day), month < 10 && (month = "0" + month), minutes < 10 && (minutes = "0" + minutes), hour < 10 && (hour = "0" + hour);
+
+
+
 setTimeout(function() { 
 document.getElementById('group_interaction_info_form-tab_view-estimated_end_date_out').click();
 }, 1000);
-//setTimeout(function() { 
-  //      document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value =  " Ожидаемое время восстановления ";
-//}, 3000);
+setTimeout(function() { 
+       document.getElementById("group_interaction_info_form-tab_view-estimated_end_date_input").value =  hour           +            ":" + minutes + " " + day + "." + month + "." + year;
+}, 3000);
