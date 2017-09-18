@@ -18,7 +18,7 @@ setTimeout(function() {
 document.getElementById('group_interaction_info_form-tab_view-j_idt317_display').click();
 }, 1000);
 setTimeout(function() { 
-$( "span[class='ui-button-text ui-c']" )[0].click();
+$( "span[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-inplace-save']" )[0].click();
    }, 2000);
 setTimeout(function() { 
 document.getElementById('group_interaction_info_form-tab_view-estimated_end_date_out').click();
