@@ -22,7 +22,7 @@ $( "span[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-ico
    }, 2000);
 setTimeout(function() { 
 document.getElementById('group_interaction_info_form-tab_view-estimated_end_date_out').click();
-}, 1000);
+}, 3000);
 setTimeout(function() { 
 document.getElementById("group_interaction_info_form-tab_view-estimated_end_date_input").value =  day + "." + month + "." + year + " " +  hour + ":" + minutes;
-}, 2000);
+}, 5000);
