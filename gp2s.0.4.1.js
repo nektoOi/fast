@@ -10,13 +10,13 @@
 
 setTimeout(function() { 
 document.getElementById('group_interaction_info_form-tab_view-estimated_end_date_out').click();
-}, 4000);
+}, 1000);
 setTimeout(function() { 
 document.getElementById("group_interaction_info_form-tab_view-estimated_end_date_input").value =  day + "." + month + "." + year + " " +  hour + ":" + minutes;
-}, 3000);
+}, 2000);
 setTimeout(function() { 
-$( "div[class='ui-button-icon-left ui-icon ui-c ui-icon-check']" ).click();
-}, 4000);
+$( "div[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-inplace-save']" ).click();
+}, 1000);
 //setTimeout(function() { 
 //document.getElementById("group_interaction_info_form-tab_view-commentary").value = document.getElementById("group_interaction_info_form-tab_view-businessInteraction_out").value; + " "+  day + "." + month + "." + year + " " +  hour + ":" + minutes;
 //}, 2000);
