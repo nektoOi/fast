@@ -1,4 +1,4 @@
-mainUrl='https://raw.githubusercontent.com/darakcheeff/fast/master/';
+mainUrl='https://raw.githubusercontent.com/nektoOi/fast/master/';
 
 function httpGet(theUrl)
 {
