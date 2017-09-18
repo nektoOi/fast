@@ -17,6 +17,6 @@ document.getElementById("group_interaction_info_form-tab_view-estimated_end_date
 setTimeout(function() { 
 document.getElementById('group_interaction_info_form-tab_view-commentary_out').click();
 }, 2000);
-setTimeout(function() { 
-document.getElementById("group_interaction_info_form-tab_view-commentary").value = document.getElementById("group_interaction_info_form-tab_view-businessInteraction_out").value; + " "+  day + "." + month + "." + year + " " +  hour + ":" + minutes;
-}, 2000);
+//setTimeout(function() { 
+//document.getElementById("group_interaction_info_form-tab_view-commentary").value = document.getElementById("group_interaction_info_form-tab_view-businessInteraction_out").value; + " "+  day + "." + month + "." + year + " " +  hour + ":" + minutes;
+//}, 2000);
