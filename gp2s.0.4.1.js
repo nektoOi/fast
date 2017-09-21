@@ -19,11 +19,11 @@
 
 setTimeout(function() { 
 document.getElementById('group_interaction_info_form-tab_view-commentary_out').click();
-}, 5000);
+}, 1000);
 
 var text = document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value;
 
 
 setTimeout(function() { 
 document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + day + "." + month + "." + year + " " +  hour + ":" + minutes;
-}, 5000);
+}, 2000);
