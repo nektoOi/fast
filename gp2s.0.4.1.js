@@ -19,4 +19,4 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
 }, 2000);
 setTimeout(function() { 
 document.getElementById('group_interaction_info_form-tab_view-commentary_out').click();
-}, 1000);
+}, 5000);
