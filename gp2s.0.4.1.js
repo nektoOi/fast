@@ -25,5 +25,5 @@ var text = document.getElementById("group_interaction_info_form-tab_view-busines
 
 
 setTimeout(function() { 
-document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + day + "." + month + "." + year + " " +  hour + ":" + minutes;
+document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
 }, 2000);
