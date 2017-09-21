@@ -15,7 +15,7 @@ setTimeout(function() {
 document.getElementById("group_interaction_info_form-tab_view-estimated_end_date_input").value =  day + "." + month + "." + year + " " +  hour + ":" + minutes;
 }, 1000);
 setTimeout(function() { 
-document.getElementById('signal_form-available_transitions_label').click();
+document.getElementById('group_interaction_info_form-tab_view-group_interaction_rule_table_data').click();
 }, 3000);
 
 //document.getElementById('group_interaction_info_form-tab_view-businessInteraction').submit()
