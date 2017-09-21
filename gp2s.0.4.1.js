@@ -30,7 +30,7 @@ document.getElementById("group_interaction_info_form-tab_view-commentary").value
 
 
 setTimeout(function() { 
-document.getElementById('group_interaction_info_form-tab_view-j_idt229_display').mouseover;
+document.getElementById('group_interaction_info_form-tab_view-j_idt229_display').onmouseover;
 }, 3000);
 //setTimeout(function() { 
 //document.getElementById('group_interaction_info_form-tab_view-j_idt229_display').hover();
