@@ -8,15 +8,15 @@
 
 
 
-//setTimeout(function() { 
-//document.getElementById('group_interaction_info_form-tab_view-estimated_end_date_out').click();
-//}, 1000);
+setTimeout(function() { 
+document.getElementById('group_interaction_info_form-tab_view-estimated_end_date_out').click();
+}, 1000);
 //setTimeout(function() { 
 //document.getElementById("group_interaction_info_form-tab_view-estimated_end_date_input").value =  day + "." + month + "." + year + " " +  hour + ":" + minutes;
 //}, 2000);
-setTimeout(function() { 
-document.getElementById('group_interaction_info_form-tab_view-j_idt317_display').click();
-}, 1000);
+//setTimeout(function() { 
+//document.getElementById('group_interaction_info_form-tab_view-j_idt317_display').click();
+//}, 1000);
 //setTimeout(function() { 
 //$( "span[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-inplace-save']" ).click();
   // }, 2000);
