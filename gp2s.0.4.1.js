@@ -25,4 +25,3 @@ document.getElementById('group_interaction_info_form-tab_view-commentary_out).cl
 //setTimeout(function() { 
 //document.getElementById('group_interaction_info_form-tab_view-commentary_out').click();
 //}, 1000);
-
