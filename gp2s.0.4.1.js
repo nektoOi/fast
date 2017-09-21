@@ -18,7 +18,7 @@ document.getElementById("group_interaction_info_form-tab_view-estimated_end_date
 //document.getElementById('group_interaction_info_form-tab_view-group_interaction_rule_table_data').click();
 //}, 3000);
 setTimeout(function() { 
-document.getElementById('group_interaction_info_form-tab_view-businessInteraction').submit();
+document.getElementById('group_interaction_info_form').submit();
 }, 1000);
 
 //setTimeout(function() { 
