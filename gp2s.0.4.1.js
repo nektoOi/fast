@@ -15,9 +15,9 @@ setTimeout(function() {
 document.getElementById("group_interaction_info_form-tab_view-estimated_end_date_input").value =  day + "." + month + "." + year + " " +  hour + ":" + minutes;
 }, 1000);
 
-setTimeout(function() { 
+
 document.getElementById('group_interaction_info_form-tab_view-businessInteraction').submit()
-}, 1000);
+
 
 //setTimeout(function() { 
 //document.getElementById('group_interaction_info_form-tab_view-commentary_out').click();
