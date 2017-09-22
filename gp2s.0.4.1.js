@@ -23,7 +23,6 @@ document.getElementById('group_interaction_info_form-tab_view-commentary_out').c
 
 //var text = document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value;
 
-
 //setTimeout(function() { 
 //document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
 //}, 2000);
