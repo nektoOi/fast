@@ -28,9 +28,9 @@ setTimeout(function() {
 document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
 }, 2000);
 
-setTimeout(function() { 
-var elm $("ui-inplace-display").addClass("ui-inplace-display ui state-highlight").click();
-}, 2000);
+//setTimeout(function() { 
+//var elm $("ui-inplace-display").addClass("ui-inplace-display ui state-highlight").click();
+//}, 2000);
 /
 //setTimeout(function() { 
 //document.getElementById('group_interaction_info_form-tab_view-j_idt229_display').click();
