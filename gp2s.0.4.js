@@ -31,6 +31,10 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
             reg = 'Ульяновский филиал';
             $( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
         }
+	     if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Мордовия  РЕСП') > 1) {
+            reg = 'Республика Мордовия';
+            $( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
+        }
         if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижегородская ОБЛ') > 1) {
             reg = 'Нижегородский филиал';
 			 if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Нижний Новгород Г') > 1) {
