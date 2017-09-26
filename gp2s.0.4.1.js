@@ -25,7 +25,7 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
 //}, 5000);
 alert($( "span[class='heading-accent']" )[0].innerText.replace(' - Регистрация', ''));
     setTimeout(function() {
-       $( "span[class='ui-inplace-display ui state-highlight']" ).click();
+       $( "span[class='ui-inplace-display']" ).click();
         //document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
     }, 5000);
 
