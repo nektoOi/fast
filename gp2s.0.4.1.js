@@ -28,6 +28,6 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
 //}, 2000);
 
 setTimeout(function() { 
-   $( "span[class='ui-inplace-display']" ).click();
+   $( "span[class='ui-inplace-display ui state-highlight']" ).click();
 //var elm = $("ui-inplace-display").addClass("ui-inplace-display ui state-highlight").click();
 }, 2000);
