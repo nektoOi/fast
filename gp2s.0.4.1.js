@@ -25,7 +25,7 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
 //}, 5000);
 
     setTimeout(function() {
-      $( "dl[class='name-value width-130 no-margin-bottom']" ).click();
+      $("ui-inplace-display ui-state-highlight").click()
         //document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
     }, 2000);
 
