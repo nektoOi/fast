@@ -21,7 +21,7 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
 //document.getElementById('group_interaction_info_form-tab_view-j_idt322_display').click();
 //}, 5000);
 
-//var text = document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value;
+var text = document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value;
 
 setTimeout(function() { 
 document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
