@@ -17,9 +17,9 @@ setTimeout(function() {
 $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-inplace-save']" ).click();
 }, 2000);
 
-setTimeout(function() { 
-document.getElementById('group_interaction_info_form-tab_view-j_idt322_display').click();
-}, 5000);
+//setTimeout(function() { 
+//document.getElementById('group_interaction_info_form-tab_view-j_idt322_display').click();
+//}, 5000);
 
 //var text = document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value;
 
@@ -27,6 +27,7 @@ document.getElementById('group_interaction_info_form-tab_view-j_idt322_display')
 //document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
 //}, 2000);
 
-//setTimeout(function() { 
+setTimeout(function() { 
+   $( "span[class='ui-inplace-display']" ).click();
 //var elm = $("ui-inplace-display").addClass("ui-inplace-display ui state-highlight").click();
-//}, 2000);
+}, 2000);
