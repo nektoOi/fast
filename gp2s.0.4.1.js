@@ -1,4 +1,4 @@
- if  var date = new Date,
+  var date = new Date,
         day = date.getDate() + 1,
         month = date.getMonth() + 1,
         year = date.getYear() + 1900,
@@ -18,12 +18,12 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
 }, 2000);
 
 
-} else {
+
    
 //setTimeout(function() { 
 //document.getElementById('group_interaction_info_form-tab_view-j_idt322_display').click();
 //}, 5000);
- alert($(".ui-grid-col-7")[0].innerText.replace(' - Регистрация', ''));
+alert($( "span[class='heading-accent']" )[0].innerText.replace(' - Регистрация', ''));
     setTimeout(function() {
        $( "span[class='ui-inplace-display ui state-highlight']" ).click();
         //document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
@@ -39,4 +39,4 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
    //$( "span[class='ui-inplace-display ui state-highlight']" ).click();
 //var elm = $("ui-inplace-display").addClass("ui-inplace-display ui state-highlight").click();
 //}, 2000);
-}
+
