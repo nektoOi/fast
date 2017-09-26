@@ -1,4 +1,4 @@
-   var date = new Date,
+ if  var date = new Date,
         day = date.getDate() + 1,
         month = date.getMonth() + 1,
         year = date.getYear() + 1900,
@@ -17,6 +17,9 @@ setTimeout(function() {
 $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-inplace-save']" ).click();
 }, 2000);
 
+
+} else {
+   
 //setTimeout(function() { 
 //document.getElementById('group_interaction_info_form-tab_view-j_idt322_display').click();
 //}, 5000);
@@ -36,3 +39,4 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
    //$( "span[class='ui-inplace-display ui state-highlight']" ).click();
 //var elm = $("ui-inplace-display").addClass("ui-inplace-display ui state-highlight").click();
 //}, 2000);
+}
