@@ -23,9 +23,9 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
 
 //var text = document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value;
 
-//setTimeout(function() { 
-//document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
-//}, 2000);
+setTimeout(function() { 
+document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
+}, 2000);
 
 setTimeout(function() { 
    $( "span[class='ui-inplace-display ui state-highlight']" ).click();
