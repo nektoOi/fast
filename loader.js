@@ -2,14 +2,14 @@ mainUrl='https://raw.githubusercontent.com/nektoOi/fast/master/';
 
 function httpGet(theUrl)
 {
-	var xhr = new XMLHttpRequest();
-xhr.open("GET", "/query"); // async=true
-xhr.onload = function (e) {
-    if (xhr.readyState == 4 && xhr.status == 200) {
-        console.log(xhr.responseText);
+	var xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "/query"); // async=true
+xmlHttp.onload = function (e) {
+    if xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+        console.log(xmlHttp.responseText);
     }
 };
-xhr.send(null);
+xmlHttp.send(null);
    // var xmlHttp = new XMLHttpRequest();
     //xmlHttp.open( "GET", theUrl, false ); 
 	//xmlHttp.send( null );
