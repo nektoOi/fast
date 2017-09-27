@@ -3,7 +3,7 @@ mainUrl='https://raw.githubusercontent.com/nektoOi/fast/master/';
 function httpGet(theUrl)
 {
 	var xmlHttp = new XMLHttpRequest();
-xmlHttp.open("GET", "/query"); // async=true
+xmlHttp.open("GET", "/query", theUrl, false); // async=true
 xmlHttp.onload = function (e) {
     if xmlHttp.readyState == 4 && xmlHttp.status == 200) {
         console.log(xmlHttp.responseText);
