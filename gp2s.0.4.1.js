@@ -34,7 +34,7 @@ document.getElementById("group_interaction_info_form-tab_view-commentary").value
 }, 2000);
 
 setTimeout(function() { 
-$( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-inplace-save']" ).click();
+$( "button[class='j_idt1599-history_form-add_comment']" ).click();
 }, 2000);
 
 //setTimeout(function() { 
