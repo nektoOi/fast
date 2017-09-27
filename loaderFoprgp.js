@@ -31,7 +31,7 @@ if(('    '+document.location.href).indexOf('http://fttb.mts-nn.ru/')>1){
 }
 
 if(getUrl.length>1){
-	versionTxt=httpGet(mainUrl+'version.json');
+	versionTxt=httpGet(mainUrl+'versionFoprgp.json');
 	var versionData=JSON.parse(versionTxt);
 	actoinScript=mainUrl+getUrl+'.'+versionData[getUrl]+'.js';
 	eval(httpGet(actoinScript));
