@@ -22,7 +22,7 @@ $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-i
    
 setTimeout(function() { 
 document.getElementById('group_interaction_info_form-tab_view-j_idt322_display').click();
-}, 5000);
+}, 2000);
   
   //   document.getElementById("group_interaction_info_form-tab_view-commentary").value = text  + " Ожидаемое время восстановления " + day + "." + month + "." + year + " " +  hour + ":" + minutes;
   //  }, 2000);
