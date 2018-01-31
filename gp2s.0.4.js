@@ -45,7 +45,7 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
             reg = 'Пензенский филиал';
             $( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
         }
-        var text = reg + ", отсутствуют услуги у абонентов " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
+        var text = reg + ", Недоступны услуги ШПД у абонентов " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value;
         document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + " Ожидаемое время восстановления " + hour           +            ":" + minutes + " " + day + "." + month + "." + year    }, 1000);
     alert($( "span[class='heading-accent']" )[0].innerText.replace(' - Регистрация', ''));
     setTimeout(function() {
