@@ -23,9 +23,7 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
     setTimeout(function() {
         if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Чувашская РЕСП') > 1) {
             reg = 'Чувашский филиал';
-            setTimeout(function() {
-            $( "tr[data-label='ОМССиИС МРФ Волга']" )[0].click();
-            }, 1000);
+           
         }
         if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Ульяновская ОБЛ') > 1) {
             reg = 'Ульяновский филиал';
