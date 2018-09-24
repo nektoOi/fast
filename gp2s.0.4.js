@@ -13,7 +13,7 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
 
 document.getElementById('group_interaction_rule_frame_form-j_idt1108').click();
 
-    var date = new Date,
+var date = new Date,
         day = date.getDate() + 1,
         month = date.getMonth() + 1,
         year = date.getYear() + 1900,
@@ -62,10 +62,9 @@ document.getElementById('group_interaction_rule_frame_form-j_idt1108').click();
             reg = 'Пензенский филиал';
             
         }
+	   }, 1000);
+setTimeout(function() {
+ 
     var text = "Аварийная ситуация на сети ПАО Ростелеком,  проводятся аварийно-восстановительные работы. Не доступны услуги (доступ в Интернет, Интерактивного ТВ, ) для  абонентов " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-address_ac_input").value;
-        document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + " Предполагаемое время восстановления сервисов " + hour           +            ":" + minutes + " " + day + "." + month + "." + year    }, 1000);
-   // alert($( "span[class='heading-accent']" )[0].innerText.replace(' - Регистрация', ''));
-    //setTimeout(function() {
-      //  $( "button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-priority-primary']" ).click();
-    //}, 5000);
-}
+        document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + " Предполагаемое время восстановления сервисов " + hour           +            ":" + minutes + " " + day + "." + month + "." + year    
+}, 2000);
