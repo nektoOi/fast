@@ -9,8 +9,9 @@ if (!$( "div[class='ui-grid-col-9']" )[6]) {
 
 } else {
 
-     $( "div[class='ui-grid-col-12 text-right']" )[1].firstChild.click();
+    // $( "div[class='ui-grid-col-12 text-right']" )[1].firstChild.click();
 
+document.getElementById('group_interaction_rule_frame_form-j_idt1108').click();
 
     var date = new Date,
         day = date.getDate() + 1,
