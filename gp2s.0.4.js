@@ -68,3 +68,4 @@ setTimeout(function() {
     var text = "Аварийная ситуация на сети ПАО Ростелеком,  проводятся аварийно-восстановительные работы. Не доступны услуги (доступ в Интернет, Интерактивного ТВ, ) для  абонентов " + document.getElementById("group_interaction_info_form-tab_view-node_rule_building-address_ac_input").value;
         document.getElementById("group_interaction_info_form-tab_view-businessInteraction").value = text, document.getElementById("group_interaction_info_form-tab_view-commentary").value = text + " Предполагаемое время восстановления сервисов " + hour           +            ":" + minutes + " " + day + "." + month + "." + year    
 }, 2000);
+}
