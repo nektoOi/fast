@@ -48,6 +48,10 @@ var date = new Date,
             reg = 'Удмуртская РЕСП';
             
         }
+	     if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-address_ac_input").value.indexOf('Оренбург ') > 1) {
+            reg = 'Оренбургская ОБЛ';
+            
+        }
 	     if (document.getElementById("group_interaction_info_form-tab_view-node_rule_building-node_rule_building_input").value.indexOf('Мордовия') > 1) {
             reg = 'Республика Мордовия';
             
